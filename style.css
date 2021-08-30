@@ -1,0 +1,33 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+#myimg {
+    width:calc(750px / 1);
+    height:calc(1334px / 1);
+}
+
+#retrieve {
+    background: rgba(89, 236, 255, 0.5);
+    width:750px;
+    height:100px;
+    font-size: 60px;
+    border: 1px solid black;
+    color:black;
+    border-radius: 50px;
+    position:absolute;
+    top: 1234px;
+}
+
+#retrieve:hover {
+    background: black;
+    width:750px;
+    height:100px;
+    font-size: 60px;
+    color: rgba(89, 236, 255, 0.5);
+    border: 1px solid rgba(89, 236, 255, 0.5);
+    border-radius: 50px;
+    position:absolute;
+    top: 1234px;
+}
